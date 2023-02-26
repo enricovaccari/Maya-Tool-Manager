@@ -1,0 +1,96 @@
+#*********************************************************************************
+# content      = user configuration data
+#
+# version      = 1.0.0
+# date         = 12-11-2022
+# 
+# todos        = fill out yaml with all the remaining data
+#
+# license      =
+# author       = Enrico Vaccari <e.vaccari99@gmail.com>
+# 
+#**********************************************************************************
+
+#**********************************************************************************
+# GENERAL
+#**********************************************************************************
+
+name: Maya Tool Manager
+
+
+#**********************************************************************************
+# POPUP FUNCTIONS (booleans YES and NO need quotation to become str type)
+#**********************************************************************************
+
+general_warning:
+    # basic info (popup_functions module)
+    button:
+        - 'YES'
+        - 'NO'
+        - HELP
+    
+    icon:
+        warning
+    
+    defaultButton:
+        'YES'
+
+    cancelButton:
+        'NO'
+
+    dismissString:
+        'NO'
+
+    messageAlign:
+        center
+
+    backgroundColor:
+        - 0.80
+        - 0.58
+        - 0.00
+
+    # id check popup
+    title:
+        ID CHECK POPUP WINDOW (missing directory)
+    
+    # main check popup
+    title:
+        MAIN SCRIPT WINDOW (missing file)
+
+
+#**********************************************************************************
+
+check_popup:
+    # basic info (popup_functions module)
+    button:
+        - 'YES'
+        - 'NO'
+        - HELP
+    
+    icon:
+        warning
+    
+    defaultButton:
+        'YES'
+
+    cancelButton:
+        'NO'
+
+    dismissString:
+        'NO'
+
+    messageAlign:
+        center
+
+    backgroundColor:
+        - 0.80
+        - 0.58
+        - 0.00
+
+    # id check popup
+    title:
+        ID CHECK POPUP WINDOW (missing directory)
+    
+    # main check popup
+    title:
+        MAIN SCRIPT WINDOW (missing file)

@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="MTM">
+    <file>Question_Mark.png</file>
+    <file>Maya_Icon.png</file>
+    <file>Email.png</file>
+    <file>Right_Arrow.png</file>
+    <file>Down_Arrow.png</file>
+  </qresource>
+</RCC>
